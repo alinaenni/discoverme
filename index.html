@@ -4,9 +4,12 @@
   <meta charset="UTF-8">
   <link rel="stylesheet" type="text/css" href="styles.css">
 
-<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-<link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+  <script src="jquery.simple-text-rotator.js"></script>
+  <link rel="stylesheet" type="text/css" href="  simpletextrotator.css">
+
+<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
 
   <title>Discover me | Alina</title>
 
@@ -14,16 +17,17 @@
 <body>
 
   <header> <!-- page header -->
+
  <div id="headings">
 
     <span class="lang eng"> <!-- English version -->
-    <!--  <h1>Welcome</h1>
-      <p class="click">Finnish | suomi</p>  -->
+      <h1 class="rotate">Hello, stranger & Welcome & How are you? & Scroll down</h1>
+       <p class="click eng">In Finnish・suomeksi</p>
     </span>
 
     <span class="lang fin"> <!-- Finnish version -->
-      <h1>Tervetuloa</h1>
-      <p class="click">English / englanti</h2>
+      <h1 class="rotate">Hei & Tervetuloa & Miten voit? & Selaa alaspäin</h1>
+       <p class="click fin">In English・englanniksi</p>
     </span>
 
   </div>
@@ -35,11 +39,11 @@
 <span class="lang eng">
   <h1>Ad astra<br />per aspera</h1>
   "To the stars<br />through difficulties"
-
 </span>
 
 <span class="lang fin">
-
+  <h1>Ad astra<br />per aspera</h1>
+  "Vaikeuksien kautta<br />tähtiin"
 </span>
     </div>
 
@@ -49,22 +53,22 @@
       <table class="lang eng intro">
           <tr>
             <td class="bold">Who?</td>
-            <td>Alina, a Finnish 20-year-old</td>
+            <td class="norm">Alina – a Finnish 20-year-old</td>
           </tr>
 
           <tr>
             <td class="bold">What?</td>
-            <td>a linguistics student</td>
+            <td class="norm">a linguistics student</td>
           </tr>
 
           <tr>
             <td class="bold">Where?</td>
-            <td>The University of Edinburgh</td>
+            <td class="norm">The University of Edinburgh</td>
           </tr>
 
           <tr>
-            <td class="bold">Why?</td>
-            <td>To showcase my skills!</td>
+            <td class="bold la">Why?</td>
+            <td class="norm la">To showcase my skills!</td>
           </tr>
       </table>
 
@@ -164,91 +168,90 @@
                   <td>International Baccalaureate Diploma</td>
                   <td>Turku, Finland</td>
                 </tr>
-
-                <tr><td class="head" colspan="4">Work experience</td></tr>
-                <tr>
-                  <td>2017</td>
-                  <td>Poistoa Oy</td>
-                  <td>Homesiivooja</td>
-                  <td>Turku, Finland</td>
-                </tr>
-
-                <tr>
-                  <td>2017</td>
-                  <td>Posti Oy</td>
-                  <td>Postin lajittelija</td>
-                  <td>Turku, Finland</td>
-                </tr>
-
-                <tr>
-                  <td>2016</td>
-                  <td>Martinex Oy</td>
-                  <td>Varastotyöntekijä</td>
-                  <td>Turku, Finland</td>
-                </tr>
-
-                <tr><td class="head" colspan="4">Voluntary work</td></tr>
-                <tr>
-                  <td>2016</td>
-                  <td>Loimaan teatteri</td>
-                  <td>Nuoriso-ohjaaja</td>
-                  <td>Loimaa, Finland / Limerick, Ireland</td>
-                </tr>
-
-                <tr>
-                  <td>2015 - 2017</td>
-                  <td>Raision KilliNallit</td>
-                  <td>Vartionjohtaja</td>
-                  <td>Raisio, Finland</td>
-                </tr>
               </table>
 
-<table class="lang eng cv">
-                <tr><td class="head" colspan="2">Language skills</td>
-                  <td class="fill" colspan="1"></td>
-                  <td class="head" colspan="2">IT skills</td>
-                </tr>
+              <table class="lang eng cv2">
+                              <tr><td class="head" colspan="2">Language skills</td>
+                                <td class="fill" colspan="1"></td>
+                                <td class="head" colspan="2">IT skills</td>
+                              </tr>
 
-                <tr>
-                  <td>Finnish</td>
-                  <td>Native language</td>
+                              <tr>
+                                <td>Finnish</td>
+                                <td>Native language</td>
+                                <td class="fill"></td>
+                                <td>HTML5, CSS</td>
+                                <td>Very good</td>
+                              </tr>
 
-                  <td class="fill"></td>
+                              <tr>
+                                <td>English</td>
+                                <td>Excellent</td>
+                                <td class="fill"></td>
+                                <td>Microsoft Office programs</td>
+                                <td>Very good</td>
+                              </tr>
 
-                  <td>HTML5, CSS</td>
-                  <td>Very good</td>
-                </tr>
+                              <tr>
+                                <td>German</td>
+                                <td>Good</td>
+                                <td class="fill"></td>
+                                <td>Javascript</td>
+                                <td>Basics</td>
+                              </tr>
 
-                <tr>
-                  <td>English</td>
-                  <td>Excellent</td>
+                              <tr>
+                                <td>Italian</td>
+                                <td>Basics</td>
+                                <td class="fill"></td>
+                                <td>C, PHP</td>
+                                <td>Basics</td>
+                              </tr>
+                        </table>
 
-                  <td class="fill"></td>
+              <table class="lang eng cv">
+                              <tr><td class="head" colspan="3">Work experience</td>
+                                <td class="fill" colspan="1"></td>
+                                <td class="head" colspan="3">Voluntary work</td>
+                              </tr>
 
-                  <td>Microsoft Office programs</td>
-                  <td>Very good</td>
-                </tr>
+                              <tr>
+                                <td>2017</td>
+                                <td>Sauvon Säilyke Oy</td>
+                                <td>Factory worker</td>
 
-                <tr>
-                  <td>German</td>
-                  <td>Good</td>
+                                <td class="fill"></td>
 
-                  <td class="fill"></td>
+                                <td>2016</td>
+                                <td>Loimaa theatre</td>
+                                <td>Youth leader</td>
+                              </tr>
 
-                  <td>Javascript</td>
-                  <td>Basics</td>
-                </tr>
+                              <tr>
+                                <td>2017</td>
+                                <td>Posti Oy</td>
+                                <td>Mail sorter</td>
 
-                <tr>
-                  <td>Italian</td>
-                  <td>Basics</td>
+                                <td class="fill"></td>
 
-                  <td class="fill"></td>
+                                <td>2015-2017</td>
+                                <td>Raision KilliNallit</td>
+                                <td>Patrol leader</td>
+                              </tr>
 
-                  <td>C, PHP</td>
-                  <td>Basics</td>
-                </tr>
-          </table>
+                              <tr>
+                                <td>2016</td>
+                                <td>Martinex Oy</td>
+                                <td>Storage worker</td>
+
+                                <td class="fill"></td>
+
+                                <td class="fill"></td>
+                                <td class="fill"></td>
+                                <td class="fill"></td>
+                              </tr>
+                        </table>
+
 
             </div>
 
@@ -270,23 +273,23 @@
                 <table class="lang eng con">
                   <tr>
                     <td>Email</td>
-                    <td><a href="">email@mail.com</a></td>
+                    <td><a href="mailto:alinaenni@gmail.com">alinaenni@gmail.com</a></td>
                     <td class="fill"></td>
                     <td>GitHub</td>
-                    <td><a href="">github</a></td>
+                    <td><a href="https://github.com/alinaenni">alinaenni</a></td>
                   </tr>
 
                     <tr>
                     <td>Twitter</td>
-                    <td><a href="">@twitterhandle</a></td>
+                    <td><a href="https://twitter.com/ennikaisa">@ennikaisa</a></td>
                     <td class="fill"></td>
-                    <td>Website</td>
-                    <td><a href="">link</a>
+                    <td>LinkedIn</td>
+                    <td><a href="https://www.linkedin.com/in/alina-rouvinen/">alina-rouvinen</a>
                   </tr>
 
                   <tr>
                   <td>Instagram</td>
-                  <td><a href="">instagram-un</a></td>
+                  <td><a href="https://www.instagram.com/alina_enni/">alina_enni</a></td>
                   <td class="fill"></td>
                   <td>Website</td>
                   <td><a href="">link</a>
@@ -299,15 +302,17 @@
           </div> <!-- end of "wrap" -->
 
           <footer> <!-- footer and copyright -->
-              <div id="copy">&copy; Alina Rouvinen 2018</div>
-
-            <div id="ics">
-            <a href="" target="_blank"><img src="/Users/alina/Documents/insta.png" /></a>
-            <a href="" target="_blank"><img src="/Users/alina/Documents/face.png" /></a>
-            <a href="" target="_blank"><img src="/Users/alina/Documents/twitter.png" /></a>
-          </div>
+          &copy; Alina Rouvinen 2018
           </footer>
 
         </body>
+
+        <script>
+        $(".rotate").textrotator({
+          animation: "dissolve", // You can pick the way it animates when rotating through words. Options are dissolve (default), fade, flip, flipUp, flipCube, flipCubeUp and spin.
+          separator: "&", // If you don't want commas to be the separator, you can define a new separator (|, &, * etc.) by yourself using this field.
+          speed: 4000 // How many milliseconds until the next word show.
+        });
+        </script>
 
         </html>
