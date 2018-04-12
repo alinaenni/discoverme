@@ -14,30 +14,18 @@ body {
   padding: 0;
 }
 @font-face {
-    font-family: Original;
-    src: url(/Users/alina/Documents/GitHub/discoverme-master/Original.otf);
+  font-family: Adlanta;
+  src: url(/Users/alina/Documents/GitHub/discoverme-master/Adlanta.otf);
 }
-@font-face {
-    font-family: Artypa;
-    src: url(/Users/alina/Documents/GitHub/discoverme-master/Artypa.otf);
-}
-@font-face {
-    font-family: Asenine;
-    src: url(/Users/alina/Documents/GitHub/discoverme-master/asen.ttf);
-}
-@font-face {
-    font-family: Adlanta;
-    src: url(/Users/alina/Documents/GitHub/discoverme-master/Adlanta.otf);
-}
-#text h1 {
+#text h1 {          /* headings */
   font-size: 29px;
-  color: rgba(74, 140, 93, 0.6);
+  color: rgba(74,140,93,0.6);
   font-weight: bold;
   margin-top: 0px;
 }
 #text h2 {
   font-size: 22px;
-  color: rgba(74, 140, 93, 0.4);
+  color: rgba(74,140,93,0.4);
   margin-top: 30px;
 }
 #cv h1 {
@@ -61,20 +49,18 @@ body {
   -webkit-transition-duration: 1.2s; /* Safari */
   transition-duration: 1.2s;
 }
-#left:hover h1 {
-  color: #82cca7;
+#left:hover h1 { color: #82cca7;
 }
-a {
+a {                 /* links */
   color: #7e936e;
   text-decoration: none;
   font-weight: normal;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
 }
-a:hover {
-  color: #508391;
+a:hover { color: #508391;
 }
-header h1 {
+header h1 {   /* header headings */
   padding-top: 2vw;
   margin: 0px 0px 0px 0px;
   font-size: 120px;
@@ -83,38 +69,13 @@ header h1 {
   font-family: 'Quicksand', sans-serif;
   color: #fefefe;
 }
-header h1:hover {
-  cursor: default;
-}
-header h2 {
-  margin: 0px 0px 0px 0px;
-  display: block;
-  font-size: 32px;
-  font-weight: normal;
-  font-family: 'Quicksand', sans-serif;
-  color: #fefefe;
-}
-header h3 {
-  position: relative;
-  box-sizing: border-box;
-  padding: 0px 0px 0px 8px;
-  margin-left: 52%;
-  display: block;
-  width: 48%;
-  text-align: left;
-  font-size: 32px;
-  font-weight: normal;
-  font-family: 'Quicksand', sans-serif;
-  color: #fefefe;
-}
-#rot {
-  width: 100%;
+header h1:hover { cursor: default;
 }
 #headings {
   margin: 0 auto;
   margin-top: 16vw;
 }
-header {
+header {          /* header */
   background-image: url("/Users/alina/Documents/backgrounds/woop.jpg");
   background-repeat: no-repeat;
   background-position: top center;
@@ -124,9 +85,7 @@ header {
   -o-background-size: cover;
   background-size: cover;
   position: relative;
-  margin-left: 0px;
-  margin-right: 0px;
-  margin-top: 0px;
+  margin: 0px 0px 0px 0px;
   padding-top: 1px;
   width: 100%;
   height: 100%;
@@ -144,11 +103,9 @@ header p {
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
 }
-header p:hover {
-  color: #e8e8e8;
-  cursor: default;
+header p:hover { color: #e8e8e8; cursor: default;
 }
-.click {
+.click {              /* switch language button */
   margin-left: auto;
   margin-right: auto;
   letter-spacing: 1px;
@@ -163,26 +120,22 @@ header p:hover {
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
 }
-.click.eng {
-  width: 240px;
-}
-.click.fin {
-  width: 400px;
+.click.eng { width: 240px; }
+.click.fin { width: 400px;
 }
 .click:hover {
-  background: rgba(0,0,0,0);
-  text-shadow: none;
+  background: transparent;
   color: #e0e0e0;
   cursor: pointer;
 }
-#wrap {
+#wrap {               /* wrap div */
   margin-left: 0;
   margin-right: 0;
   width: 100%;
   min-height: 100%;
   padding-bottom: 80px;
 }
-#left {
+#left {           /* left box */
   background-color: rgba(250,250,250,0.5);
   box-sizing: border-box;
   padding: 3.5vw 11vw 0vw 11vw;
@@ -202,33 +155,25 @@ header p:hover {
   transition-duration: 0.8s;
   overflow: hidden;
 }
-#left:hover {
-  cursor: default;
+#left:hover { cursor: default;
 }
-#right {
-  color: #aaa;
+#right {        /* right box */
   width: 50%;
   box-sizing: border-box;
-/*  padding: 50px; */
   height: 80%;
   margin-left: 50%;
   text-align: center;
   position: relative;
 }
-table.intro {
+table.intro {     /* introduction table */
   margin: 0 auto;
   text-transform: uppercase;
   width: 100%;
   height: 100%;
 }
 .intro td {
-  background-color: rgba(0,0,0,0);
   padding: 30px;
   line-height: 30px;
-  text-align: center;
-  font-size: 16px;
-  letter-spacing: 2px;
-  color: #595b5b;
 }
 .intro .norm {
   background-color: rgba(0,0,0,0.02);
@@ -241,13 +186,12 @@ table.intro {
   text-align: center;
   width: 30%;
   font-weight: bold;
-  letter-spacing: 0px;
   text-transform: lowercase;
   font-size: 28px;
   background-color: rgba(0,0,0,0.02);
   color: rgba(74, 140, 93, 0.25);
 }
-#text {
+#text {         /* text container */
   width: 100%;
   height: auto;
   text-align: justify;
@@ -256,13 +200,10 @@ table.intro {
   font-size: 18px;
   line-height: 40px;
   color: #595b5b;
-  padding-left: 100px;
-  padding-right: 100px;
-  padding-top: 70px;
-  padding-bottom: 70px;
+  padding: 70px 100px 70px 100px;
   margin-bottom: 0px;
 }
-#cv {
+#cv {           /* cv container */
   width: 100%;
   background-color: rgba(0,0,0,0.06);
   text-align: justify;
@@ -271,15 +212,10 @@ table.intro {
   font-size: 18px;
   line-height: 40px;
   color: #353535;
-  padding-left: 100px;
-  padding-right: 100px;
-  padding-top: 50px;
-  padding-bottom: 60px;
+  padding: 50px 100px 60px 100px;
   margin-bottom: 0px;
 }
-#cv table {
-  margin: 0 auto;
-  width: 100%;
+#cv table { margin: 0 auto; width: 100%;  /* tables inside #cv */
 }
 .cv td {
   background-color: rgba(0,0,0,0.06);
@@ -297,8 +233,7 @@ table.intro {
   font-size: 22px;
   color: #60a072;
 }
-.cv .fill {
-  background-color: transparent;
+.cv .fill { background-color: transparent;
 }
 .cv2 td {
   background-color: rgba(0,0,0,0.06);
@@ -317,11 +252,9 @@ table.intro {
   font-size: 22px;
   color: #60a072;
 }
-.cv2 .fill {
-  background-color: transparent;
-  width: 4%;
+.cv2 .fill { background-color: transparent; width: 4%;
 }
-#plus {
+#plus {                     /* info box */
   box-sizing: border-box;
   width: 100%;
   background-color: rgba(0,0,0,0.03);
@@ -330,18 +263,16 @@ table.intro {
   font-size: 16px;
   padding: 30px 100px 30px 100px;
 }
-table.con {
+table.con {             /* contact links table */
   position: relative;
   margin-top: 0px;
   margin-left: 50px;
   width: 45%;
-  color: #aaa;
 }
 .con .fill {
   width: 2%;
   padding: 0px;
   background-color: transparent;
-  border: 0px;
 }
 .con td {
   padding: 20px;
@@ -351,7 +282,7 @@ table.con {
   line-height: 30px;
   font-size: 16px;
 }
-#contact .blah {
+#contact .blah {      /* text in contact box */
   width: 45%;
   position: relative;
   float: left;
@@ -359,7 +290,7 @@ table.con {
 }
 #contact strong { color: #579b93;
 }
-#other {
+#other {            /* additional text container */
   width: 100%;
   height: auto;
   text-align: justify;
@@ -368,13 +299,10 @@ table.con {
   font-size: 18px;
   line-height: 40px;
   color: #595b5b;
-  padding-left: 100px;
-  padding-right: 100px;
-  padding-top: 40px;
-  padding-bottom: 50px;
+  padding: 40px 100px 50px 100px;
   margin-bottom: 0px;
 }
-#contact {
+#contact {        /* contact container */
   background-image: url("/Users/alina/Documents/backgrounds/bla.png");
   background-repeat: repeat;
   background-color: #333;
@@ -404,25 +332,17 @@ footer {
   margin-top: -80px;
   color: #aaa;
 }
-footer:hover {
-  cursor: default;
+footer:hover { cursor: default;
 }
-.lang {
-  display: none;
+.lang { display: none; }        /* toggle page language */
+.lang.fin { display: none; }
+.lang.eng { display: block;
 }
-.lang.fin {
-  display: block;
-}
-.lang.eng {
-  display: none;
-}
-@media (max-width: 900px) {
+@media (max-width: 900px) {       /* mobile styles */
   header {
     height: 800px;
   }
-  header h1 {
-    margin-top: 60%;
-    font-size: 72px;
+  header h1 { margin-top: 60%; font-size: 72px;
   }
   #left {
     background-image: none;
@@ -432,124 +352,103 @@ footer:hover {
     float: none;
     width: 100%;
     height: 420px;
-   }
-   #right {
-     box-sizing: border-box;
-     width: 100%;
-     margin-left: 0;
-     text-align: center;
-   }
-   table.intro {
-     margin: 0 auto;
-     width: 100%;
-   }
-   .intro .norm {
-     font-size: 16px;
-   }
-   #text {
-     box-sizing: border-box;
-     padding-top: 40px;
-     padding-left: 40px;
-     padding-right: 40px;
-     padding-bottom: 50px;
-     height: auto;
-   }
-   #cv {
-     width: 100%;
-     background-color: rgba(0,0,0,0.06);
-     text-align: justify;
-     box-sizing: border-box;
-     font-family: 'Quicksand', sans-serif;
-     font-size: 18px;
-     line-height: 40px;
-     color: #353535;
-     padding-left: 30px;
-     padding-right: 30px;
-     padding-top: 50px;
-     padding-bottom: 60px;
-     margin-bottom: 0px;
-   }
-   #cv table {
-     margin: 0 auto;
-     width: 100%;
-   }
-   .cv td {
-     background-color: rgba(0,0,0,0.06);
-     padding: 10px;
-     line-height: 30px;
-     font-size: 14px;
-     color: #595b5b;
-   }
-   .cv .head {
-     text-align: left;
-     background-color: transparent;
-     padding-left: 0px;
-     padding-bottom: 10px;
-     font-weight: bold;
-     font-size: 20px;
-     color: #60a072;
-   }
-   .cv .fill {
-     background-color: transparent;
-   }
-   .cv2 td {
-     background-color: rgba(0,0,0,0.06);
-     padding: 20px;
-     width: 20%;
-     line-height: 30px;
-     font-size: 16px;
-     color: #595b5b;
-   }
-   .cv2 .head {
-     text-align: left;
-     background-color: transparent;
-     padding-left: 0px;
-     padding-bottom: 10px;
-     font-weight: bold;
-     font-size: 20px;
-     color: #60a072;
-   }
-   .cv2 .fill {
-     background-color: transparent;
-     width: 4%;
-   }
-   #plus {
-     box-sizing: border-box;
-     width: 100%;
-     line-height: 28px;
-     text-align: left;
-     padding: 30px 40px 30px 40px;
-   }
-   #other {
-     width: 100%;
-     height: auto;
-     box-sizing: border-box;
-     font-size: 18px;
-     padding-left: 40px;
-     padding-right: 40px;
-     padding-top: 40px;
-     padding-bottom: 50px;
-     margin-bottom: 0px;
-   }
-   #contact {
-     width: 100%;
-     text-align: justify;
-     box-sizing: border-box;
-     padding: 40px 40px 50px 40px;
-     line-height: 30px;
-   }
-   table.con {
-     position: relative;
-     margin-top: 0px;
-     margin-left: 0px;
-     width: 100%;
-     color: #aaa;
-   }
-   #contact .blah {
-     margin: 0 auto;
-     width: 100%;
-     position: relative;
-     margin-right: 60px;
-     margin-bottom: 10px;
-   }
+  }
+  #right {
+    box-sizing: border-box;
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+  }
+  table.intro { margin: 0 auto; width: 100%;
+  }
+  .intro .norm { font-size: 16px;
+  }
+  #text {
+    box-sizing: border-box;
+    padding: 40px 40px 50px 40px;
+    height: auto;
+  }
+  #cv {
+    width: 100%;
+    background-color: rgba(0,0,0,0.06);
+    text-align: justify;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    line-height: 40px;
+    color: #353535;
+    padding: 50px 30px 60px 30px;
+    margin-bottom: 0px;
+  }
+  #cv table { margin: 0 auto; width: 100%;
+  }
+  .cv td {
+    padding: 10px;
+    line-height: 30px;
+    font-size: 14px;
+    color: #595b5b;
+  }
+  .cv .head {
+    text-align: left;
+    padding-left: 0px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #60a072;
+  }
+  .cv .fill { background-color: transparent;
+  }
+  .cv2 td {
+    padding: 10px;
+    width: 20%;
+    line-height: 30px;
+    font-size: 16px;
+    color: #595b5b;
+  }
+  .cv2 .head {
+    text-align: left;
+    padding-left: 0px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #60a072;
+  }
+  .cv2 .fill { background-color: transparent; width: 1%;
+  }
+  #plus {
+    box-sizing: border-box;
+    width: 100%;
+    line-height: 28px;
+    text-align: left;
+    padding: 30px 40px 30px 40px;
+  }
+  #other {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    font-size: 18px;
+    padding: 40px 40px 50px 40px;
+    margin-bottom: 0px;
+  }
+  #contact {
+    width: 100%;
+    text-align: justify;
+    box-sizing: border-box;
+    padding: 40px 40px 50px 40px;
+    line-height: 30px;
+  }
+  table.con {
+    position: relative;
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 100%;
+    color: #aaa;
+  }
+  #contact .blah {
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+    margin-right: 60px;
+    margin-bottom: 10px;
+  }
 }
