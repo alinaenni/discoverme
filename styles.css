@@ -1,7 +1,7 @@
 /* Background pattern from Subtle Patterns */
 /* Header picture (c) Alina Rouvinen */
 body {
-  background-image: url("/Users/alina/Documents/GitHub/discoverme-master/tex2.png");
+  background-image: url("tex2.png");
   background-repeat: repeat;
   background-attachment: fixed;
   background-size: 170px;
@@ -15,7 +15,7 @@ body {
 }
 @font-face {
   font-family: Adlanta;
-  src: url(/Users/alina/Documents/GitHub/discoverme-master/Adlanta.otf);
+  src: url(Adlanta.otf);
 }
 #text h1 {          /* headings */
   font-size: 29px;
@@ -76,7 +76,7 @@ header h1:hover { cursor: default;
   margin-top: 16vw;
 }
 header {          /* header */
-  background-image: url("/Users/alina/Documents/backgrounds/woop.jpg");
+  background-image: url("woop.jpg");
   background-repeat: no-repeat;
   background-position: top center;
   background-attachment: fixed;
@@ -303,7 +303,7 @@ table.con {             /* contact links table */
   margin-bottom: 0px;
 }
 #contact {        /* contact container */
-  background-image: url("/Users/alina/Documents/backgrounds/bla.png");
+  background-image: url("bla.png");
   background-repeat: repeat;
   background-color: #333;
   background-size: 100px;
