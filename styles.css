@@ -370,6 +370,9 @@ footer:hover { cursor: default;
   }
   table.intro { margin: 0 auto; width: 100%;
   }
+  .intro td {
+    width: 100%;
+  }
   .intro .norm { font-size: 16px;
   }
   #text {
